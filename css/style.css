@@ -46,3 +46,6 @@ body{
 h1{
     color: var(--color-1);
 }
+h3{
+    color: var(--color-2);
+}
