@@ -3,3 +3,23 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    display: grid;
+}
+
+h1{
+    display: grid;
+    justify-content: center;
+    padding: 2rem;
+}
+
+img{
+    display: grid;
+    justify-content: center;
+    border-radius: 7px;
+    size: auto;
+}
+.icons{
+    display: grid;
+    size: 300px;
+}

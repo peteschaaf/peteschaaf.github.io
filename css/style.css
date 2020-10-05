@@ -5,13 +5,44 @@
     --color-4: #2C2A4A;
     --color-5: #7FDEFF;
 }
+
+
+
 body{
     background-color: var(--color-4);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
-.dropdown-nav{
-    font-style: italic;
+.dropdown{
+    float: left;
+    overflow: hidden;
+    background-color: var(--color-5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dropdown a{
+    float: left;
+    font-size: 16px;
     color: var(--color-1);
-    
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown .dropdown-button{
+    border: none;
+    outline: none;
+    color: var(--color-2);
+    padding: 1rem;
+    background-color: inherit;
+    margin: 0;
+}
+h1{
+    color: var(--color-1);
 }
