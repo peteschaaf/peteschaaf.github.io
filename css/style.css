@@ -6,7 +6,12 @@
     --color-5: #7FDEFF;
 }
 body{
-    background-color: var(--color-1);
+    background-color: var(--color-4);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.dropdown-nav{
+    font-style: italic;
+    color: var(--color-1);
     
 }
