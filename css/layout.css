@@ -15,16 +15,31 @@ h1{
 h3{
     display: grid;
     justify-content: left;
-    padding: 4rem;
+    padding: 3rem;
 }
-
-img{
+.about-content{
     display: grid;
-    justify-content: center;
+    grid-template-columns: 2 2fr;
+
+}
+.about-me-content{
+    display: grid;
+    justify-content: space-around;
+    padding: 4rem;
+    width: 50%;
+}
+.self-photo-wrapper{
+    display: grid;
+    justify-content: right;
+    width: 100%;
+}
+.self-photo{
+    display: grid;
+    justify-content: right;
     border-radius: 7px;
-    size: auto;
+    width: 300px;
 }
 .icons{
     display: grid;
-    size: 300px;
+    justify-content: space-evenly;
 }
