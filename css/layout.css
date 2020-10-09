@@ -23,23 +23,30 @@ h3{
 
 }
 .about-me-content{
-    display: grid;
-    justify-content: space-around;
-    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 3rem;
     width: 50%;
 }
 .self-photo-wrapper{
-    display: grid;
-    justify-content: right;
-    width: 100%;
+    display: flex;
 }
+
 .self-photo{
-    display: grid;
-    justify-content: right;
+    display: flexbox;
+    flex-direction: row;
+    justify-content: flex-end;
     border-radius: 7px;
     width: 300px;
 }
 .icons{
-    display: grid;
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
+    padding: 3rem;
 }
+.icons img{
+    width: 150px;
+}
+

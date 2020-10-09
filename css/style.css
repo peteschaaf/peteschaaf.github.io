@@ -1,22 +1,22 @@
 :root{
-    --color-1: #61E786;
-    --color-2: #A69888;
-    --color-3: #4F518C;
-    --color-4: #2C2A4A;
-    --color-5: #7FDEFF;
+    --color-1: #eed7c5;
+    --color-2: #c89f9c;
+    --color-3: #c97c5d;
+    --color-4: #B36A5e;
+    --color-5: #EEE2DF;
 }
 
 
 
 body{
     background-color: var(--color-4);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Montserrat;
     
 }
 .dropdown{
     float: left;
     overflow: hidden;
-    background-color: var(--color-5);
+    background-color: var(--color-4);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .dropdown a{
@@ -44,8 +44,17 @@ body{
     margin: 0;
 }
 h1{
-    color: var(--color-1);
+    color: var(--color-2);
 }
 h3{
     color: var(--color-2);
+}
+.self-photo-wrapper{
+    border: solid var(--color-2);
+    border-radius: 7px;
+    margin: 20px;
+    padding: 2rem;
+}
+p{
+    color: var(--color-5);
 }
