@@ -51,12 +51,17 @@ h3{
 }
 .projects{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
     padding: 3rem;
 }
-.projects img{
-    width: 200px;
-    border-radius: 7px;
+.project-photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+.project-photos img{
+    width: 400px;
 }
 
