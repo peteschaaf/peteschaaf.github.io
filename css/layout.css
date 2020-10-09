@@ -49,4 +49,14 @@ h3{
 .icons img{
     width: 150px;
 }
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+.projects img{
+    width: 200px;
+    border-radius: 7px;
+}
 
