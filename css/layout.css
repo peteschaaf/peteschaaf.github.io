@@ -1,67 +1,81 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-body{
+
+body {
     display: grid;
 }
 
-h1{
+h1 {
     display: grid;
     justify-content: center;
     padding: 2rem;
 }
-h3{
+
+h3 {
     display: grid;
     justify-content: left;
     padding: 3rem;
 }
-.about-content{
+
+.about-content {
     display: grid;
     grid-template-columns: 2 2fr;
-
 }
-.about-me-content{
+
+.about-me-content {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding: 3rem;
     width: 50%;
 }
-.self-photo-wrapper{
+
+.self-photo-wrapper {
     display: flex;
 }
 
-.self-photo{
+.self-photo {
     display: flexbox;
     flex-direction: row;
     justify-content: flex-end;
     border-radius: 7px;
     width: 300px;
 }
-.icons{
+
+.icons {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 3rem;
-}
-.icons img{
-    width: 150px;
-}
-.projects{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 3rem;
-}
-.project-photos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 3rem;
-}
-.project-photos img{
-    width: 400px;
 }
 
+.icons :hover {
+    border: none;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px 2px black;
+}
+
+.icons img {
+    width: 150px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+
+.project-photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+
+.project-photos img {
+    width: 400px;
+}
